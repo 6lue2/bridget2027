@@ -5,7 +5,7 @@ hide: true
 show_reading_time: false
 ---
 
-Hi! My name is [Your Full Name]
+Hi! My name is Bridget Xiao
 
 ### Development Environment
 
@@ -63,22 +63,13 @@ Hi! My name is [Your Full Name]
 
 <br>
 
-### Class Progress
+### AP CSA Prep
 
-> Here is my game progress through coding, click to see these in the browser
+> Here is my progress through Units 1-4, click to see these in the browser
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/snake" class="btn">
-        Snake
-    </a>
-    <a href="{{site.baseurl}}/gamify/parallax" class="btn" style="background-color: var(--green); ">
-        Fish
-    </a>
-    <a href="{{site.baseurl}}/gamify" class="btn" style="background-color: var(--teal);">
-       Gamify
-    </a>
-    <a href="{{site.baseurl}}/cs-pathway" class="btn" style="background-color: var(--orange);">
-       CS Pathway
+    <a href="{{site.baseurl}}/csalessons/coderunner" class="btn" style="background-color: var(--orange);">
+       Code Runners
     </a>
 </div>
 
