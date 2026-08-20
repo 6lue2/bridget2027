@@ -68,17 +68,24 @@ Hi! My name is Bridget Xiao
 > Here is my progress through Units 1-4, click to see these in the browser
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <a href="{{site.baseurl}}/csalessons/coderunner" class="btn" style="background-color: var(--orange);">
-       Code Runners
+    <a href="{{site.baseurl}}/csalessons/coderunner" style="text-decoration: none;">
+        <div style="background-color: var(--warn); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
+           Code Runner
+        </div>
     </a>
     <a href="{{site.baseurl}}/csalessons/unit1" style="text-decoration: none;">
         <div style="background-color: var(--blue); color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
            Unit 1
         </div>
     </a>
-    <a href="{{site.baseurl}}/csalessons/unit1" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/csalessons/unit2" style="text-decoration: none;">
         <div style="background-color: var(--orange); color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
            Unit 2
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/csalessons/unit3" style="text-decoration: none;">
+        <div style="background-color: var(--warn); color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
+           Unit 3
         </div>
     </a>
 </div>
