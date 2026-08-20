@@ -71,6 +71,16 @@ Hi! My name is Bridget Xiao
     <a href="{{site.baseurl}}/csalessons/coderunner" class="btn" style="background-color: var(--orange);">
        Code Runners
     </a>
+    <a href="{{site.baseurl}}/csalessons/unit1" style="text-decoration: none;">
+        <div style="background-color: var(--blue); color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
+           Unit 1
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/csalessons/unit1" style="text-decoration: none;">
+        <div style="background-color: var(--orange); color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold; transition: transform 0.2s, box-shadow 0.2s;">
+           Unit 2
+        </div>
+    </a>
 </div>
 
 <br>
