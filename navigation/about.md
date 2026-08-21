@@ -16,9 +16,9 @@ Hi, I'm **Bridget Xiao**! 👋
 - 📚 Currently a senior at Del Norte High School
 
 <div style="display: flex; gap: 10px; margin: 20px 0;">
-  <img src="/Users/bridgetxiao/Documents/CSA/bridget2027/images/about/yellowstone.jpg" alt="Yosemite National Park" style="width: 33%; border-radius: 8px; object-fit: cover;">
-  <img src="/Users/bridgetxiao/Documents/CSA/bridget2027/images/about/yellowstone.jpg" alt="Zion National Park" style="width: 33%; border-radius: 8px; object-fit: cover;">
-  <img src="/Users/bridgetxiao/Documents/CSA/bridget2027/images/about/yellowstone.jpg" alt="Yellowstone National Park" style="width: 33%; border-radius: 8px; object-fit: cover;">
+  <img src="{{site.baseurl}}/images/about/yosemite.jpg" alt="Yosemite National Park" style="width: 33%; border-radius: 8px; object-fit: cover;">
+  <img src="{{site.baseurl}}/images/about/zion.jpg" alt="Zion National Park" style="width: 33%; border-radius: 8px; object-fit: cover;">
+  <img src="{{site.baseurl}}/images/about/yellowstone.jpg" alt="Yellowstone National Park" style="width: 33%; border-radius: 8px; object-fit: cover;">
 </div>
 
 ### Future Plans
