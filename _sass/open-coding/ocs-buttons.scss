@@ -1,0 +1,43 @@
+// Same class names as upstream OCS (ocs__links, ocs__btn, alert-yellow), so page markup matches the template.
+// Global `a` color is !important, so button text needs it too.
+
+$ocs-btn-blue: #a9cdf5;
+$ocs-btn-yellow: #fdeeb2;
+
+.ocs__links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1em;
+}
+
+a.ocs__btn {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 8px 12px;
+  border: 1px solid $ocs-btn-blue;
+  border-radius: 6px;
+  color: $ocs-btn-blue !important;
+  text-decoration: none;
+  transition: transform 0.2s, background-color 0.2s;
+
+  &:hover {
+    background-color: rgba(169, 205, 245, 0.15);
+    transform: scale(1.05);
+  }
+
+  &.alert-yellow {
+    border-color: $ocs-btn-yellow;
+    color: $ocs-btn-yellow !important;
+
+    &:hover {
+      background-color: rgba(253, 238, 178, 0.15);
+    }
+  }
+
+  @media (max-width: 768px) {
+    min-height: 44px;
+  }
+}
